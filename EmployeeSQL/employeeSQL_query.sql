@@ -84,3 +84,7 @@ ON e.emp_no = empt.emp_no
 
 --List the frequency counts, in descending order, of all the employee last names (that is, how many employees 
 --share each last name) (4 points)
+SELECT e.last_name, COUNT(e.last_name) AS "Frequency"
+FROM employees e
+GROUP BY last_name
+ORDER BY last_name desc;
