@@ -18,4 +18,4 @@ The salaries table has two columns, emp_no and salary. The salary column is an I
 
 The titles table has two columns, title_id and title. The title column is VARCHAR with a length of 50. Title_id, the primary key, also acts as the foreign key to link back to employees table through emp_title_id.
 
-
+![department_employees](./EmployeeSQL/department_employees.csv "Employee SQL ERD graph")
