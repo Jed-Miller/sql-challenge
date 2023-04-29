@@ -17,3 +17,5 @@ The employees table has 7 columns, the most of any table, and it stores much of 
 The salaries table has two columns, emp_no and salary. The salary column is an INT within the csv file but was added as numeric to provide a more realisitic value for salary. Emp-no, the primary key, also acts as the foreign key to link back to employees table.
 
 The titles table has two columns, title_id and title. The title column is VARCHAR with a length of 50. Title_id, the primary key, also acts as the foreign key to link back to employees table through emp_title_id.
+
+
