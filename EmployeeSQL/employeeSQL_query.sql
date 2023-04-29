@@ -66,7 +66,7 @@ JOIN dept_emp empt
 ON dpt.dept_no = empt.dept_no
 AND dpt.dept_name = 'Sales'
 JOIN employees e
-ON e.emp_no = empt.emp_no
+ON e.emp_no = empt.emp_no;
 
 
 --List each employee in the Sales and Development departments, including their employee number, last name, 
@@ -80,11 +80,11 @@ JOIN dept_emp empt
 ON dpt.dept_no = empt.dept_no
 AND (dpt.dept_name = 'Sales' OR dpt.dept_name = 'Development')
 JOIN employees e
-ON e.emp_no = empt.emp_no
+ON e.emp_no = empt.emp_no;
 
 --List the frequency counts, in descending order, of all the employee last names (that is, how many employees 
 --share each last name) (4 points)
 SELECT e.last_name, COUNT(e.last_name) AS "Frequency"
 FROM employees e
 GROUP BY last_name
-ORDER BY last_name desc;
+ORDER BY COUNT(e.last_name) desc;
