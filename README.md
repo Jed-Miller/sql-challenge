@@ -22,6 +22,27 @@ The titles table has two columns, title_id and title. The title column is VARCHA
 
 The results of the different queries are posted below:
 
+### List the employee number, last name, first name, sex, and salary of each employee.
+![image](./EmployeeSQL/sales_employee.png "Employee Info")
 
+### List the first name, last name, and hire date for the employees who were hired in 1986.
+![image](./EmployeeSQL/1986_hires.png "1986 Hires")
 
+### List the manager of each department along with their department number, department name, employee number, last name, and first name.
+![image](./EmployeeSQL/department_managers.png "Department Managers")
+
+### List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+![image](./EmployeeSQL/department_employees.png "Department Employees")
+
+### List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+![image](./EmployeeSQL/hercules_b.png "Hercules B")
+
+### List each employee in the Sales department, including their employee number, last name, and first name.
+![image](./EmployeeSQL/sales_employees.png "Sales Employees")
+
+### List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+![image](./EmployeeSQL/sales_development.png "Sales and Development")
+
+### List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+![image](./EmployeeSQL/lastname_frequency.png "Last Name Frequency")
 
